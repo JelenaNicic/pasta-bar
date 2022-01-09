@@ -18,4 +18,22 @@ public class PastaBar {
 
 		return -1;
 }
+	public static boolean stalnaMusterija(String[] nizMusterija, String brTelefona) {
+		for (int i = 0; i < nizMusterija.length; i++) {
+			if (nizMusterija[i].equals(brTelefona)) {
+				return true;
+			}
+		}
+
+		return false;
+	}
 }
+
+
+
+
+
+
+
+
+
